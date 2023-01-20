@@ -1,7 +1,7 @@
-import { Watch } from "../watches/Watch";
+import { SmartWatch, Watch } from "../watches/Watch";
 
 export interface WatchFactory {
     createPointerWatch: () => Watch;
     createDigitalWatch: () => Watch;
-    createSmartWatch: () => Watch;
+    createSmartWatch: () => SmartWatch;
 }

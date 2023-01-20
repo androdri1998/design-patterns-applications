@@ -3,3 +3,7 @@ export interface Watch {
     shape: string;
     getTime: () => number;
 };
+
+export interface SmartWatch extends Watch {
+    canOpenApps: () => boolean;
+}

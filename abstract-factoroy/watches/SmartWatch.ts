@@ -1,6 +1,6 @@
-import { Watch } from './Watch';
+import { SmartWatch as SmartWatchImp } from './Watch';
 
-class SmartWatch implements Watch {
+class SmartWatch implements SmartWatchImp {
     type: string;
     shape: string;
 
@@ -8,6 +8,10 @@ class SmartWatch implements Watch {
         this.type = 'smart';
         this.shape = shape;
     }
+
+    canOpenApps() {
+        return true;
+    };
 
     getTime() {
         const date = Date.now();
