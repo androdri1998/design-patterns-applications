@@ -1,8 +1,4 @@
-export interface Watch {
-    type: string;
-    shape: string;
-    getTime: () => number;
-};
+import { Watch } from "../watches/Watch";
 
 export interface WatchFactory {
     createPointerWatch: () => Watch;

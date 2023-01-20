@@ -1,4 +1,4 @@
-import { WatchFactory } from "./dto";
+import { WatchFactory } from "./factories/WatchFactory";
 import RoundWatchFactory from "./factories/RoundWatchFactory";
 import SquareWatchFactory from "./factories/SquareWatchFactory";
 

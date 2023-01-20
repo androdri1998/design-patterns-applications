@@ -1,4 +1,4 @@
-import { Watch } from '../dto';
+import { Watch } from './Watch';
 
 class SmartWatch implements Watch {
     type: string;

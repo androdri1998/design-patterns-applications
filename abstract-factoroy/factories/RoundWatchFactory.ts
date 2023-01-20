@@ -1,4 +1,4 @@
-import { WatchFactory } from '../dto';
+import { WatchFactory } from './WatchFactory';
 import PointerWatch from '../watches/PointerWatch';
 import DigitalWatch from '../watches/DigitalWatch';
 import SmartWatch from '../watches/SmartWatch';
