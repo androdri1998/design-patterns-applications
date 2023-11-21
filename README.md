@@ -14,6 +14,10 @@ Repository to put some design patterns' examples of use
 
 - npm install
 
+### Run code
+
+- `$ npm start [DIRECTORY]/index.ts`
+
 ## Go lang
 
 ### Install Go lang
