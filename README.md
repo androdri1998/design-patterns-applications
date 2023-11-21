@@ -28,7 +28,7 @@ Repository to put some design patterns' examples of use
 
 - `$ Go run [DIRECTORY]/main.go`
 
-# Design Patters
+# Design Patterns
 
 ## TypeScript
 
