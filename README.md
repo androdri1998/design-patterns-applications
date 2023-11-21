@@ -12,7 +12,7 @@ Repository to put some design patterns' examples of use
 
 ### Install dependencies
 
-- npm install
+- `$ npm install`
 
 ### Run code
 
