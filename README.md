@@ -42,3 +42,4 @@ Repository to put some design patterns' examples of use
 | [TypeScript/Interator](/TypeScript/Interator/)             | Interator design pattern        |
 | [TypeScript/Observer](/TypeScript/Observer/)               | Observer design pattern         |
 | [TypeScript/Strategy](/TypeScript/Strategy/)               | Strategy design pattern         |
+| [TypeScript/Singleton](/TypeScript/Singleton/)             | Singleton design pattern        |
