@@ -18,6 +18,12 @@ Repository to put some design patterns' examples of use
 
 - `$ npm start [DIRECTORY]/index.ts`
 
+## JavaScript
+
+### Run javaScript code
+
+- `$ node [DIRECTORY]/index.ts`
+
 ## Go lang
 
 ### Install Go lang
@@ -43,3 +49,9 @@ Repository to put some design patterns' examples of use
 | [TypeScript/Observer](/TypeScript/Observer/)               | Observer design pattern         |
 | [TypeScript/Strategy](/TypeScript/Strategy/)               | Strategy design pattern         |
 | [TypeScript/Singleton](/TypeScript/Singleton/)             | Singleton design pattern        |
+
+## JavaScript
+
+| Directory                                  | Description            |
+| ------------------------------------------ | ---------------------- |
+| [JavaScript/Factory](/JavaScript/Factory/) | Factory design pattern |
