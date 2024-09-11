@@ -52,6 +52,7 @@ Repository to put some design patterns' examples of use
 
 ## JavaScript
 
-| Directory                                  | Description            |
-| ------------------------------------------ | ---------------------- |
-| [JavaScript/Factory](/JavaScript/Factory/) | Factory design pattern |
+| Directory                                    | Description             |
+| -------------------------------------------- | ----------------------- |
+| [JavaScript/Factory](/JavaScript/Factory/)   | Factory design pattern  |
+| [JavaScript/Iterator](/JavaScript/Iterator/) | Iterator design pattern |
