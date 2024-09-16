@@ -57,3 +57,4 @@ Repository to put some design patterns' examples of use
 | [JavaScript/Factory](/JavaScript/Factory/)   | Factory design pattern  |
 | [JavaScript/Iterator](/JavaScript/Iterator/) | Iterator design pattern |
 | [JavaScript/Strategy](/JavaScript/Strategy/) | Strategy design pattern |
+| [JavaScript/Observer](/JavaScript/Observer/) | Observer design pattern |
