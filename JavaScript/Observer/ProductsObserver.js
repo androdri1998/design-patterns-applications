@@ -1,5 +1,4 @@
 const ProductsObserver = () => {
-  const products = [];
   const subscribers = {
     general: [],
     videogames: [],
@@ -31,22 +30,10 @@ const ProductsObserver = () => {
     });
   };
 
-  const registerProduct = (productName, type) => {
-    const subscriberType = type || "general";
-
-    products.push({ product: productName, type: subscriberType });
-    try {
-      notify(productName, subscriberType);
-    } catch (err) {
-      console.log(err.message);
-    }
-  };
-
   return {
     subscribe,
     unsubscribe,
     notify,
-    registerProduct,
   };
 };
 

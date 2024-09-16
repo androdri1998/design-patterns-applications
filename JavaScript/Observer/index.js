@@ -21,22 +21,26 @@ const productsObserver = ProductsObserver();
 productsObserver.subscribe(user1, "videogames");
 productsObserver.subscribe(user3, "videogames");
 productsObserver.subscribe(user2, "smartphones");
-productsObserver.subscribe(user1);
+productsObserver.subscribe(user1, "general");
 
-productsObserver.registerProduct("Smartphone 1", "smartphones");
+productsObserver.notify("Smartphone 1", "smartphones");
 // User 2:  Your Smartphone 1 of smartphones department it's available
 
-productsObserver.registerProduct("Videogame 1", "videogames");
+productsObserver.notify("Videogame 1", "videogames");
 // User 1:  Your Videogame 1 of videogames department it's available
 // User 3:  Your Videogame 1 of videogames department it's available
 
-productsObserver.registerProduct("Other product 1", "other");
-// subscription type other undefined
+try {
+  productsObserver.notify("Other product 1", "other");
+} catch (err) {
+  console.log(err.message);
+  // subscription type other undefined
+}
 
-productsObserver.registerProduct("Other product 2");
+productsObserver.notify("Other product 2", "general");
 // User 1:  Your Other product 2 of general department it's available
 
 productsObserver.unsubscribe(user3, "videogames");
 
-productsObserver.registerProduct("Videogame 2", "videogames");
+productsObserver.notify("Videogame 2", "videogames");
 // User 1:  Your Videogame 2 of videogames department it's available
